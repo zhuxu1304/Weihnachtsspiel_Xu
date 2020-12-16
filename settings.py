@@ -1,0 +1,23 @@
+WIDTH = 480
+HEIGHT = 600
+FPS = 60
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 150, 255)
+YELLOW = (255, 255, 0)
+LIGHTGREEN = (100,255,100)
+PLAYER_ACC = 0.5
+PLAYER_FRICTION = -0.12
+PLAYER_GRAV = 1
+FONT_NAME = 'corbel'
+BGCOLOR = BLUE
+TITLE = "JUMP JUMP JUMP"
+HS_FILE = "highscore.txt" # highscore speichern
+# Liste der Plattform
+PLATFORM_LIST =[(0, HEIGHT -60),
+(WIDTH /2-50, HEIGHT *3/4-50),
+(125, HEIGHT -350),
+(350,200),
+(175,100)]
